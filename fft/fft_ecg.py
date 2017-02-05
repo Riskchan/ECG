@@ -25,7 +25,7 @@ N = 2**14
 #        filename = file.split(".")[0]
 #        sig, fields=wfdb.rdsamp("data/" + dir + "/" + filename, channels=[0], sampfrom=0, sampto=N-1)
 
-sig, fields=wfdb.rdsamp("data/patient001/s0010_re", channels=[5], sampfrom=0, sampto=N)
+sig, fields=wfdb.rdsamp("../data/patient001/s0010_re", channels=[5], sampfrom=0, sampto=N)
 #sig, fields=wfdb.rdsamp("data/patient150/s0287lre", channels=[2], sampfrom=0, sampto=N)
 
 #print(sig)
